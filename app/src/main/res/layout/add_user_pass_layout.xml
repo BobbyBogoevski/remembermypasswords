@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:gravity="center" xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView android:text="@string/add_application_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/textAppName" android:hint="@string/ex_facebook" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+    <TextView android:text="@string/add_username_email" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/textUserName" android:hint="@string/ex_john_doe_email_com"
+              android:layout_width="match_parent" android:layout_height="wrap_content" android:capitalize="none"/>
+
+    <TextView android:text="@string/add_password" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/textPassword" android:hint="@string/ex_password123" android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:capitalize="none"/>
+
+    <TextView android:text="@string/add_extra_info" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/textExtra" android:hint="@string/ex_extra_key_question_answer_extra_code_etc"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:lines="6" android:capitalize="none"/>
+
+    <Button android:id="@+id/btnAddData" android:text="@string/add_to_database" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+</LinearLayout>

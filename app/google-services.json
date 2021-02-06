@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "255752383324",
+    "firebase_url": "https://passtore-3ac3f.firebaseio.com",
+    "project_id": "passtore-3ac3f",
+    "storage_bucket": "passtore-3ac3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255752383324:android:cf751e0e6d5a2b0e",
+        "android_client_info": {
+          "package_name": "bogoevski.boban.remembermypasswords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255752383324-n7qi8d4nc5avontc92dctikdqa76b5kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bogoevski.boban.remembermypasswords",
+            "certificate_hash": "15744c41e43d2c49defc0f7cf9d1b6d93083ad2e"
+          }
+        },
+        {
+          "client_id": "255752383324-jbsdhrgetm2m8alrss81g0u428rr1hdm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bogoevski.boban.remembermypasswords",
+            "certificate_hash": "267bbfc1b7fd5812adb9b19003204486a6b15a11"
+          }
+        },
+        {
+          "client_id": "255752383324-asl4mvgc7vup3nptavp9ljogejureko6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOMJW-f2W0fcOrebUdXS8wjf8AGyx-UTw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255752383324-asl4mvgc7vup3nptavp9ljogejureko6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    app:contentPaddingBottom="1sp"
+                                    app:cardBackgroundColor="#aaaaaa"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+    <LinearLayout android:background="#ffffff" android:paddingTop="10sp" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <ImageView android:id="@+id/fcv_image" android:layout_width="match_parent" android:layout_height="120sp"/>
+
+        <TextView android:gravity="center" android:paddingTop="10sp" android:paddingBottom="10sp" android:id="@+id/fcv_filename" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+            <Button style="?borderlessButtonStyle" android:background="#dddddd" android:id="@+id/fcv_download" android:text="Download" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            <Button style="?borderlessButtonStyle" android:background="@color/colorRed" android:id="@+id/fcv_delete" android:textColor="@color/colorWhite" android:backgroundTint="@color/colorRed" android:text="Delete" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

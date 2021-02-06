@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Remember My Passwords</string>
+    <string name="facebook_application_id">2325537470867198</string>
+    <string name="fb_login_protocol_scheme">fb2325537470867198</string>
+    <string name="welcome_msg">Remember My Password</string>
+    <string name="app_logo">App Logo</string>
+    <string name="sign_in">Continue to sign in/sign up</string>
+    <string name="description_text">Welcome to Remember My Password, an app for storing usernames and passwords in a
+        secure database. Click on the sign in button to continue
+    </string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ex_facebook">ex. Facebook</string>
+    <string name="add_application_name">Application name</string>
+    <string name="add_username_email">Username/Email</string>
+    <string name="ex_john_doe_email_com">ex. john_doe@email.com</string>
+    <string name="add_password">Password</string>
+    <string name="ex_password123">ex. passWorD123</string>
+    <string name="ex_extra_key_question_answer_extra_code_etc">(optional) extra key, question answer, extra code etc.</string>
+    <string name="add_extra_info">Extra info</string>
+    <string name="add_to_database">Add to database</string>
+    <string name="application_name">Application name: </string>
+    <string name="username">Username: </string>
+    <string name="passworda">Password: </string>
+    <string name="view">View</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="menu_passwords">Passwords</string>
+    <string name="menu_files">Files</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="string_drawer_header">Drawer header</string>
+    <string name="current_user">Current user:</string>
+    <string name="user_email">example.user@gmail.com</string>
+</resources>

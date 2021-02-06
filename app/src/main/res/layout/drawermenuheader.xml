@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:paddingTop="30sp"
+              android:paddingLeft="10sp"
+              android:background="@drawable/background_shamrock"
+              android:layout_height="176dp">
+
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_horizontal">
+        <LinearLayout android:orientation="vertical" android:gravity="center_horizontal" android:layout_width="wrap_content"
+                                                     android:layout_height="wrap_content">
+            <ImageView
+                    android:id="@+id/app_drawer_logo" android:src="@drawable/rmp_icon_light_128" android:layout_width="70sp" android:layout_height="70sp"
+                       android:contentDescription="App logo"/>
+            <TextView android:text="@string/app_name"
+                      android:textColor="#FFFFFF"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      app:layout_constraintTop_toBottomOf="@id/app_drawer_logo"
+            />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView android:textColor="#FFFFFF"
+              android:text="@string/current_user"
+              style="@style/TextAppearance.AppCompat.Medium"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+    <TextView android:textColor="#FFFFFF"
+              android:id="@+id/drawer_header_user"
+              android:text="@string/user_email"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+</LinearLayout>

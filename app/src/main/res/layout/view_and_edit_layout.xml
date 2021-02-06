@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+
+        <TextView android:text="@string/application_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <EditText android:id="@+id/vne_appname" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text"
+                  android:autofillHints=""/>
+
+    <TextView android:text="@string/username" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/vne_username" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text"
+              android:autofillHints=""/>
+
+    <TextView android:text="@string/password" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent"
+                                                       android:layout_height="wrap_content"
+                                                       app:passwordToggleEnabled="true"
+
+                                                       app:passwordToggleDrawable="@drawable/ic_remove_red_eye_black_24dp"
+        >
+
+            <com.google.android.material.textfield.TextInputEditText android:id="@+id/vne_password" android:layout_width="match_parent"
+                                                             android:inputType="textPassword"
+
+                                                             android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+    <TextView android:text="@string/add_extra_info" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/vne_extra" android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:inputType="text"
+              android:autofillHints=" " android:lines="10"/>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <Button android:layout_weight="1" android:id="@+id/btnUpdate" android:onClick="updateData" android:text="@string/update" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:requiresFadingEdge="vertical" style="@style/FirebaseUI.Button"
+                android:background="#dddddd" android:textColor="@android:color/black"
+                android:layout_marginRight="10sp"/>
+        <Button android:layout_weight="1" android:id="@+id/btnDelete" android:onClick="deleteData" android:text="@string/delete" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" style="@style/FirebaseUI.Button"
+                android:fadingEdge="horizontal|vertical" android:ellipsize="none" android:background="#ff0000"/>
+
+    </LinearLayout>
+
+</LinearLayout>
